@@ -17,14 +17,14 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>WebEdu</title>
+	<title>GIFTED</title>
 	<link rel="favicon" href="assets/images/favicon.png">
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css"> 
 	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen"> 
 	<link rel="stylesheet" href="assets/css/style.css">
-    <link rel='stylesheet' id='camera-css'  href='assets/css/camera.css' type='text/css' media='all'> 
+  <link rel='stylesheet' id='camera-css'  href='assets/css/camera.css' type='text/css' media='all'> 
 
 </head>
 <body>
@@ -34,7 +34,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
       <div class="navbar-header">
         <!-- Button for smallest screens -->
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-        <a class="navbar-brand" href="index.php">
+        <a class="navbar-brand" href="index.php" style="margin-top: auto;">
           <img src="assets/images/logo.png"></a>
       </div>
       <div class="navbar-collapse collapse">
@@ -73,10 +73,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 	<header id="head">
 		<div class="container">
              <div class="heading-text">							
-              <h1 class="animated flipInY delay1">A Web Application for Betterment of Special Children</h1>
+              <h1 class="animated flipInY delay1" style="color: black; -webkit-text-stroke: 1px white;"><b>A Web Application for Betterment of Special Children</b></h1>
               <br>
-							<p>We All are Special!</p>
-              <p>Join us in making this initiative affect millions.</p>
+							<b><p>We All are Special!</p>
+              <p>Join us in making this initiative affect millions.</p></b>
 						</div>
             
 					<div class="fluid_container">                       
@@ -113,7 +113,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 							</div><!--icon box top -->
 							<h4>Meet our Staff</h4>
 							
-     						<p><a href="about.html"><em>Click here</em></a></p>
+     						<p><a href="about.html#team"><em>Click here</em></a></p>
 						</div><!--grey box -->
 					</div><!--/span3-->
 					<div class="col-md-3">
@@ -146,11 +146,11 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="newsBox">
                         <div class="thumbnail">
-                            <figure style="height: 250px; width: 350px;"><a href="https://www.bridgeinternationalacademies.com/five-inspirational-stories-of-disabled-children-learning/"><img src="assets/images/news2.jpg" alt=""></a></figure>
+                            <figure style="height: 150px; width: 350px;"><a href="https://www.parentingspecialneeds.org/inspirations/special-parents-share/"><img src="assets/images/news2.jpg" alt=""></a></figure>
                             <div class="caption maxheight2">
                             <div class="box_inner">
                                         <div class="box">
-                                            <p class="title"><h3 style="text-align: center;">5 Inspirational Stories for you..</h3></p>
+                                            <p class="title"><h3 style="text-align: center;">Inspirational Stories for you..</h3></p>
                                             <p style="text-align: center;">Click on the picture above</p>
                                         </div> 
                                 </div>
@@ -161,7 +161,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="newsBox">
                         <div class="thumbnail">
-                            <figure style="height: 250px; width: 350px;"><a href="https://blog.madeformovement.com/"><img src="assets/images/news3.jpg" alt=""></a></figure>
+                            <figure style="height: 150px; width: 350px;"><a href="https://blog.madeformovement.com/"><img src="assets/images/news3.jpg" alt=""></a></figure>
                             <div class="caption maxheight2">
                             <div class="box_inner">
                                         <div class="box">
@@ -176,7 +176,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="newsBox">
                         <div class="thumbnail">
-                            <figure style="height: 250px; width: 350px;"><a href="https://differentdream.com/speaking/"><img src="assets/images/news4.jpg" alt=""></a></figure>
+                            <figure style="height: 150px; width: 350px;"><a href="https://differentdream.com/speaking/"><img src="assets/images/news4.jpg" alt=""></a></figure>
                             <div class="caption maxheight2">
                            <div class="box_inner">
                                         <div class="box">
@@ -202,7 +202,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         </div>
               
           <br><br><br>
-          <div class="col-md-4"><div class="title-box clearfix "><a href="courses.html"><h1 class="title-box_primary">&nbsp&nbsp&nbsp&nbsp  Our Courses -> &nbsp&nbsp&nbsp</h1></a></div> 
+          <div class="col-md-4"><div class="title-box clearfix "><a href="courses.html"><h1 class="title-box_primary"> Courses We Offer-> </h1></a></div> 
          </div>
       </div>
       </section>
@@ -291,9 +291,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                          <h4>Contact</h4> 
                         <br>
             <div class="contact-info"> 
-            <i class="fa fa-map-marker"></i> &nbsp&nbspMumbai, Maharashtra - India<br><br>
-            <i class="fa fa-phone"></i> &nbsp&nbsp+91 7045489328 <br><br>
-             <i class="fa fa-envelope-o"></i>&nbsp&nbspaunshumansaha9@gmail.com<br>
+            <i class="fa fa-map-marker"></i><a href="https://goo.gl/maps/cXfNWMLYgjNaZz4GA"> &nbsp&nbspMumbai, Maharashtra - India</a><br><br>
+            <i class="fa fa-phone"></i><a href="callto:917045489328"> &nbsp&nbsp+91 7045489328 </a><br><br>
+             <i class="fa fa-envelope-o"></i><a href="mailto:aunshumansaha9@gmailcom">&nbsp&nbspaunshumansaha9@gmail.com</a><br>
               </div> 
                 </div><!-- end widget --> 
     </div>
@@ -317,7 +317,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
           <div class="col-md-6 panel">
             <div class="panel-body">
               <p class="simplenav">
-                <a href="index.html">Home</a> | 
+                <a href="index.php">Home</a> | 
                 <a href="about.html">About</a> |
                 <a href="courses.html">Courses</a> |
                 <a href="price.html">Quiz</a> |
